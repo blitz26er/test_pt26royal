@@ -1,0 +1,35 @@
+<html>
+  <head>
+    <title>Stripe Example</title>
+    <script type='text/javascript' src='https://js.stripe.com/v1/'></script>
+    <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js'></script>
+    <script type='text/javascript' src='/js/stripe.js'></script>
+  </head>
+  <body>
+    <h1>Hello </h1>
+    <form method='get' id='payment-form' action='api/stripe'>
+      <p>
+        <label>Name</label>
+        <input type='text' data-stripe='name' autocomplete='off'/>
+      </p>
+      <p>
+        <label>Amount</label>
+        <input type='text' autocomplete='off' value='30'/>
+      </p>
+      <p>
+        <label>Card Number</label>
+        <input type='text' autocomplete='off' value='4242424242424242'/>
+      </p>
+      <p>
+        <label>CVC</label>
+        <input type='text' autocomplete='off' data-stripe='cvc'/>
+      </p>
+        <label>Expiration(MM/YYYY)</label>
+        <input type='text' autocomplete='off' size='2' data-stripe='exp_month'/>
+        <label>/</label>
+        <input type='text' autocomplete='off' size='4' data-stripe='exp_year'/>
+      </p>
+      <button>Submit Payment</button>
+    </form>
+  </body>
+</html>

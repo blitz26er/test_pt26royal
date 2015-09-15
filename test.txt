@@ -1,0 +1,22 @@
+jero@oneuphigher.com
+To	pt26royal@yahoo.com.my Today at 12:07 AM
+Hi Pridney,
+
+here is the test guidelines for backend developer
+- Create rest app by Node.Js
+- Host you app on heroku
+- Use mongolab's free sandbox as database
+- Secure your app by jsonwebtokens (you can use auth0 free developer 
+account and examples to auth your user)
+- Handle stripe payments via api and save all payments to database with 
+transcaction ids and other relevant information
+- Host you code on bitbucket or github and share (admin) permissions to 
+sampsa@booni.fi
+- Create simple frontend app to test backend endpoints
+
+
+Even if you can't finish the test completely, please send us the test 
+files in this day for a code review though github. Thank you.
+
+Best,
+Jero

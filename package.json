@@ -1,0 +1,17 @@
+{
+  "name": "test_pt26royal",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3",
+    "node-restful": "^0.2.2",
+    "body-parser": "^1.13.3",
+    "mongoose": "^4.1.7"
+  }
+}
